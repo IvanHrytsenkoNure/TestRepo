@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\bin\Debug\TestProject_Anuitex.exe.config
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\bin\Debug\TestProject_Anuitex.exe
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\bin\Debug\TestProject_Anuitex.pdb
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\obj\Debug\TestProject_Anuitex.csprojAssemblyReference.cache
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\obj\Debug\TestProject_Anuitex.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\obj\Debug\TestProject_Anuitex.exe
+C:\Users\User\source\repos\TestProject_Anuitex\TestProject_Anuitex\obj\Debug\TestProject_Anuitex.pdb
