@@ -12,7 +12,7 @@ namespace TestProject_Anuitex
         {
             Company<Employee> instance = Company<Employee>.getInstance();
 
-          
+            
             Worker worker = new Worker() { Name = "worker", Expirience = 1 };
             Worker worker2 = new Worker() { Name = "worker2", Expirience = 2 };
             Manager manager = new Manager() { Name = "manager", Expirience = 3 };

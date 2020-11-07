@@ -21,7 +21,6 @@ namespace TestProject_Anuitex
     }
     class Worker : Employee
     {
-
         public override void Work()
         {
             Console.WriteLine("Production release");
