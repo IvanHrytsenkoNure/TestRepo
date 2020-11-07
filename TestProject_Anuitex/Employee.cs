@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TestProject_Anuitex
 {
 
-    class Employee
+    class Employee 
     {
         
         public string Name { get; set; }
