@@ -10,7 +10,8 @@ namespace TestProject_Anuitex
     {
         private static Company<T> instance;
 
-        private List<T> EmployeeBase;
+        public List<T> EmployeeBase { get; private set; }
+
         private Company()
         {}        
         public static Company<T> getInstance()
@@ -23,7 +24,7 @@ namespace TestProject_Anuitex
                 };                
             }
             return instance;
-        }        
+        }     
 
         public static Company<T> operator + (Company<T> inst , T emp)
         {
@@ -35,12 +36,7 @@ namespace TestProject_Anuitex
             inst.EmployeeBase.Remove(emp);
             return getInstance();
         }
-        public  bool isExist(T emp)
-        {
-            ///return instance.EmployeeBase.Any(i => i.Equals(emp)); //alternative variant
-            return EmployeeBase.Contains(emp);
-        }
-        
+                
         public int amountEmployeesOfType(T emp)
         {
             return EmployeeBase.Where(i =>i .GetType().Equals(emp.GetType())).Count();
@@ -58,10 +54,6 @@ namespace TestProject_Anuitex
         {
             return EmployeeBase.Where(i => i.GetType().Equals(typeof(Manager)));
         }
-
-        public void outputAll()
-        {                     
-            EmployeeBase.ForEach( x=> Console.WriteLine(x.Name));
-        }
+       
     }
 }

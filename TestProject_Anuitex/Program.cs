@@ -46,7 +46,7 @@ namespace TestProject_Anuitex
                 Console.WriteLine("doesn`t еxist(");
 
             instance -= worker;
-
+            
             if (instance.isExist(worker))
                 Console.WriteLine("really Exist!");
             else
@@ -60,9 +60,10 @@ namespace TestProject_Anuitex
             foreach (var i in Brigadiers)
                 Console.WriteLine(i.Name);
 
+
             Console.WriteLine();
 
-            instance.outputAll();
+            instance.outputAll();       
 
             Console.ReadLine();
         }
